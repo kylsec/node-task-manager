@@ -1,5 +1,3 @@
-## Project Setup
+### Project Info
 
-In order to run the project, setup .env and set MONGO_URI variable equal to DB connection string.
-
-In order to avoid port collisions, in the source code port value is 5000
+From course by John Smilga [https://www.youtube.com/watch?v=rltfdjcXjmk]
