@@ -51,7 +51,7 @@ editFormDOM.addEventListener('submit', async (e) => {
       taskCompletedDOM.checked = true
     }
     formAlertDOM.style.display = 'block'
-    formAlertDOM.textContent = `Success! Task edited`
+    formAlertDOM.textContent = `Success! Task saved.`
     formAlertDOM.classList.add('text-success')
   } catch (error) {
     console.error(error)
@@ -59,7 +59,7 @@ editFormDOM.addEventListener('submit', async (e) => {
     formAlertDOM.style.display = 'block'
     formAlertDOM.innerHTML = `Error... Please try again.`
   }
-  editBtnDOM.textContent = 'Edit'
+  editBtnDOM.textContent = 'Save'
   setTimeout(() => {
     formAlertDOM.style.display = 'none'
     formAlertDOM.classList.remove('text-success')

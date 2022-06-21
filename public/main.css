@@ -39,6 +39,7 @@
   /* rest */
   --black: #222;
   --white: #fff;
+  --red: #b32935;
   --red-light: #f8d7da;
   --red-dark: #842029;
   --green-light: #d1e7dd;
@@ -223,7 +224,7 @@ textarea {
   width: 90vw;
   max-width: var(--fixed-width);
   margin: 0 auto;
-  margin-top: 6rem;
+  margin-top: 3rem;
 }
 
 .task-form h4 {
@@ -302,7 +303,7 @@ form> :last-child {
 
 .loading {
   width: 6rem;
-  height: 6rem;
+  height: 3rem;
   border-radius: 50%;
   border: 3px solid #ccc;
   border-top-color: var(--clr-primary-5);
@@ -337,7 +338,7 @@ form> :last-child {
   top: calc(50% - 3rem);
   left: calc(50% - 3rem);
   width: 6rem;
-  height: 6rem;
+  height: 3rem;
   border-radius: 50%;
   border: 3px solid #ccc;
   border-top-color: var(--clr-primary-5);
@@ -356,7 +357,7 @@ form> :last-child {
   width: 90vw;
   max-width: var(--fixed-width);
   margin: 0 auto;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   padding-bottom: 4rem;
 }
 
@@ -430,7 +431,7 @@ form> :last-child {
 }
 
 .delete-btn {
-  color: var(--red-dark);
+  color: var(--red);
 }
 
 /*************
@@ -469,7 +470,7 @@ form> :last-child {
   width: 250px;
   margin: 0 auto;
   text-align: center;
-  margin-top: 6rem;
+  margin-top: 3rem;
   background: var(--black);
 }
 
