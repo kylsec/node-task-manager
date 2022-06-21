@@ -39,7 +39,7 @@ const showTasks = async () => {
     tasksDOM.innerHTML = allTasks
   } catch (error) {
     tasksDOM.innerHTML =
-      '<h5 class="empty-list">There was an error, please try later....</h5>'
+      '<h5 class="empty-list">There was an error... Please try later.</h5>'
   }
   loadingDOM.style.visibility = 'hidden'
 }
@@ -74,11 +74,11 @@ formDOM.addEventListener('submit', async (e) => {
     showTasks()
     taskInputDOM.value = ''
     formAlertDOM.style.display = 'block'
-    formAlertDOM.textContent = `success, task added`
+    formAlertDOM.textContent = `Success! Task added.`
     formAlertDOM.classList.add('text-success')
   } catch (error) {
     formAlertDOM.style.display = 'block'
-    formAlertDOM.innerHTML = `error, please try again`
+    formAlertDOM.innerHTML = `Error... Please try again.`
   }
   setTimeout(() => {
     formAlertDOM.style.display = 'none'
